@@ -32,7 +32,6 @@ ifneq ($(origin XILINX_DMA_INCLUDE_PATH_FIXUP),undefined)
 export XILINX_DMA_INCLUDE_PATH_FIXUP
 endif
 
-
 # When natively compiling, we can infer the kernel's source tree directory,
 # if the user has not specified it.
 ifndef CROSS_COMPILE
